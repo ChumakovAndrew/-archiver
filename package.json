@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",
+    "exif-parser": "^0.1.12",
     "recursive-readdir": "^2.2.3"
   }
 }

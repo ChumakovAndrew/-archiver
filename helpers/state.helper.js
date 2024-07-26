@@ -5,7 +5,7 @@ export const setState = (num, maxLimit, minLimit) => {
         if(currentNum >= limit) return
         currentNum += 1
     }
-    const decr = (limit = minLimit) =>{
+    const decr = (limit = minLimit) => {
         if(currentNum <= limit) return
         currentNum -= 1
     } 
@@ -13,3 +13,5 @@ export const setState = (num, maxLimit, minLimit) => {
 
     return {incr, decr, getNum}
 }
+
+export let tree = {}
